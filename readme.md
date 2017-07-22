@@ -1,5 +1,7 @@
 # DropItForMe API Client Library for PHP
 
+[![DropItForMe](ui/images/dropitforme.com-logo-500x500.png)](https://dropitforme.com)
+
 **The Ultimate Mail Delivery Service!**
 
 No longer do you have to worry about your message being delivered! No SMTP port blocking issues! (Sorry GoDaddy, Google Cloud)
