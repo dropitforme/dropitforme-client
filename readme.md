@@ -11,7 +11,7 @@ Features include:-
 * Simple REST API
 * Callback included to give you a real time delivery status
 
-[![Paypal](ui/images/paypal.png)](paypal.me/dropitforme)
+[![Paypal](ui/images/paypal.png)](https://paypal.me/dropitforme)
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ The Drop It For Me is community-driven software. It can't be what it is today wi
 * [Tafoya Ventures](https://tafoyaventures.com)
 * [Digital Ocean](https://m.do.co/c/f62e7e7593cf)
 
-[![Paypal](ui/images/paypal.png)](paypal.me/dropitforme)
+[![Paypal](ui/images/paypal.png)](https://paypal.me/dropitforme)
 
 ### Legal notice
 
