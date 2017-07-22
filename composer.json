@@ -3,7 +3,6 @@
     "description": "DropItForMe PHP API Library.",
     "keywords": ["framework", "dropitforme"],
     "license": "GPL V3",
-    "type": "project",
     "homepage": "https://dropitforme.com",
     "support": {
         "issues": "https://github.com/dropitforme/dropitforme-client/issues",
