@@ -62,18 +62,18 @@
 <i title="Methods" class="icon-custom icon-method"></i> Methods
                     <ul>
 <li class="method public "><a href="#method___construct" title="__construct() :: dropItForMeClient constructor."><span class="description">dropItForMeClient constructor.</span><pre>__construct()</pre></a></li>
-<li class="method public "><a href="#method_isHamEmail" title="isHamEmail() :: isHamEmail() Report a valid email address"><span class="description">isHamEmail() Report a valid email address</span><pre>isHamEmail()</pre></a></li>
-<li class="method public "><a href="#method_isSpamEmail" title="isSpamEmail() :: isSpamEmail() Report an ivalid email address"><span class="description">isSpamEmail() Report an ivalid email address</span><pre>isSpamEmail()</pre></a></li>
-<li class="method public "><a href="#method_sendMessage" title="sendMessage() :: sendMessage() Send email method"><span class="description">sendMessage() Send email method</span><pre>sendMessage()</pre></a></li>
-<li class="method public "><a href="#method_validateEmail" title="validateEmail() :: validateEmail() Email address validation method"><span class="description">validateEmail() Email address validation method</span><pre>validateEmail()</pre></a></li>
+<li class="method public "><a href="#method_isHamEmail" title="isHamEmail() :: isHamEmail() Report a valid email address."><span class="description">isHamEmail() Report a valid email address.</span><pre>isHamEmail()</pre></a></li>
+<li class="method public "><a href="#method_isSpamEmail" title="isSpamEmail() :: isSpamEmail() Report an invalid email address."><span class="description">isSpamEmail() Report an invalid email address.</span><pre>isSpamEmail()</pre></a></li>
+<li class="method public "><a href="#method_sendMessage" title="sendMessage() :: sendMessage() Send email method."><span class="description">sendMessage() Send email method.</span><pre>sendMessage()</pre></a></li>
+<li class="method public "><a href="#method_validateEmail" title="validateEmail() :: validateEmail() Email address validation method. Is tested not only for syntax validity, but other email related services such as isPwned and blacklists."><span class="description">validateEmail() Email address validation method. Is tested not only for syntax validity, but other email related services such as isPwned and blacklists.</span><pre>validateEmail()</pre></a></li>
 </ul>
 </li>
 <li class="nav-header private">» Private
-                    <ul><li class="method private "><a href="#method_doRequest" title="doRequest() :: doRequest() Client API http method"><span class="description">doRequest() Client API http method</span><pre>doRequest()</pre></a></li></ul>
+                    <ul><li class="method private "><a href="#method_doRequest" title="doRequest() :: doRequest() Client API http method."><span class="description">doRequest() Client API http method.</span><pre>doRequest()</pre></a></li></ul>
 </li>
 <li class="nav-header">
 <i title="Properties" class="icon-custom icon-property"></i> Properties
-                    <ul><li class="property public "><a href="#property_api_key" title="$api_key() :: "><span class="description">API Key provided by &lt;a href="https://dropitforme.com"&gt;https://dropitforme.com&lt;/a&gt;</span><pre>$api_key</pre></a></li></ul>
+                    <ul><li class="property public "><a href="#property_api_key" title="$api_key() :: "><span class="description">API Key provided by dropitforme.com.</span><pre>$api_key</pre></a></li></ul>
 </li>
 <li class="nav-header private">» Private
                     <ul><li class="property private "><a href="#property_base_url" title="$base_url() :: "><span class="description">API Endpoint</span><pre>$base_url</pre></a></li></ul>
@@ -110,7 +110,7 @@
 </div></div>
 </div>
 <a id="method_isHamEmail"></a><div class="element clickable method public method_isHamEmail " data-toggle="collapse" data-target=".method_isHamEmail .collapse" title="public">
-<h2>isHamEmail() Report a valid email address</h2>
+<h2>isHamEmail() Report a valid email address.</h2>
 <pre>isHamEmail($email) : array</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
@@ -122,7 +122,7 @@
 </div></div>
 </div>
 <a id="method_isSpamEmail"></a><div class="element clickable method public method_isSpamEmail " data-toggle="collapse" data-target=".method_isSpamEmail .collapse" title="public">
-<h2>isSpamEmail() Report an ivalid email address</h2>
+<h2>isSpamEmail() Report an invalid email address.</h2>
 <pre>isSpamEmail($email) : array</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
@@ -134,7 +134,7 @@
 </div></div>
 </div>
 <a id="method_sendMessage"></a><div class="element clickable method public method_sendMessage " data-toggle="collapse" data-target=".method_sendMessage .collapse" title="public">
-<h2>sendMessage() Send email method</h2>
+<h2>sendMessage() Send email method.</h2>
 <pre>sendMessage($email_to, $email_to_name, $email_subject, $email_body, $email_body_type, $email_from, $email_from_name, string $attachment_path<code> = ""</code>, string $attachment_base64<code> = ""</code>, string $attachment_name<code> = ""</code>, string $callback_url<code> = ""</code>) : array</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
@@ -144,31 +144,28 @@
 <div class="subelement argument"><h4>$email_to_name</h4></div>
 <div class="subelement argument"><h4>$email_subject</h4></div>
 <div class="subelement argument"><h4>$email_body</h4></div>
-<div class="subelement argument"><h4>$email_body_type</h4></div>
+<div class="subelement argument">
+<h4>$email_body_type</h4><p>(HTML or PLAIN)</p></div>
 <div class="subelement argument"><h4>$email_from</h4></div>
 <div class="subelement argument"><h4>$email_from_name</h4></div>
 <div class="subelement argument">
 <h4>$attachment_path</h4>
-<code>string</code>
-</div>
+<code>string</code><p>(optional) File name and path to be included.</p></div>
 <div class="subelement argument">
 <h4>$attachment_base64</h4>
-<code>string</code>
-</div>
+<code>string</code><p>(optional) Base64 encoded binary data of the attachment.</p></div>
 <div class="subelement argument">
 <h4>$attachment_name</h4>
-<code>string</code>
-</div>
+<code>string</code><p>(optional, required if $attachment_path is present)</p></div>
 <div class="subelement argument">
 <h4>$callback_url</h4>
-<code>string</code>
-</div>
+<code>string</code><p>(optional) Callback will return a POST to the entered URL with the delivery email status.</p></div>
 <h3>Returns</h3>
 <div class="subelement response"><code>array</code></div>
 </div></div>
 </div>
 <a id="method_validateEmail"></a><div class="element clickable method public method_validateEmail " data-toggle="collapse" data-target=".method_validateEmail .collapse" title="public">
-<h2>validateEmail() Email address validation method</h2>
+<h2>validateEmail() Email address validation method. Is tested not only for syntax validity, but other email related services such as isPwned and blacklists.</h2>
 <pre>validateEmail($email) : array</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
@@ -180,7 +177,7 @@
 </div></div>
 </div>
 <a id="method_doRequest"></a><div class="element clickable method private method_doRequest " data-toggle="collapse" data-target=".method_doRequest .collapse" title="private">
-<h2>doRequest() Client API http method</h2>
+<h2>doRequest() Client API http method.</h2>
 <pre>doRequest($url, array|null $post<code> = NULL</code>) : array</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
@@ -198,7 +195,7 @@
 <h3>
 <i title="Properties" class="icon-custom icon-property"></i> Properties</h3>
 <a id="property_api_key"> </a><div class="element clickable property public property_api_key" data-toggle="collapse" data-target=".property_api_key .collapse" title="public">
-<h2>API Key provided by &lt;a href="https://dropitforme.com"&gt;https://dropitforme.com&lt;/a&gt;</h2>
+<h2>API Key provided by dropitforme.com.</h2>
 <pre>$api_key : string</pre>
 <div class="row collapse"><div class="detail-description">
 <h3>Default</h3>
@@ -224,7 +221,7 @@
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.8.5</a> and<br>
-            generated on 2017-07-22T07:46:16-04:00.<br></footer></div>
+            generated on 2017-07-22T11:22:48-04:00.<br></footer></div>
 </div>
 </body>
 </html>

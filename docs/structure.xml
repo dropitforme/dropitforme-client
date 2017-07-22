@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project title="DropItForMe API Client Library for PHP" version="2.8.5">
   <partials/>
-  <file path="dropItForMeClient.php" generated-path="dropItForMeClient.html" hash="cd8b5dd214660f0b8f91df9b07f0849f" package="Ajax Class">
+  <file path="dropItForMeClient.php" generated-path="dropItForMeClient.html" hash="12e2e2215907d1c9f9893bce33bf779d" package="Ajax Class">
     <docblock line="0">
       <description>DropItForMe API Client Library for PHP</description>
       <long-description></long-description>
@@ -30,7 +30,7 @@
         <docblock line="32">
           <description></description>
           <long-description></long-description>
-          <tag name="var" line="32" description="&lt;p&gt;API Key provided by &lt;a href=&quot;https://dropitforme.com&quot;&gt;https://dropitforme.com&lt;/a&gt;&lt;/p&gt;" type="string" variable="">
+          <tag name="var" line="32" description="&lt;p&gt;API Key provided by dropitforme.com.&lt;/p&gt;" type="string" variable="">
             <type>string</type>
           </tag>
         </docblock>
@@ -65,7 +65,7 @@
         <name>validateEmail</name>
         <full_name>\dropItForMeClient::validateEmail()</full_name>
         <docblock line="57">
-          <description>validateEmail() Email address validation method</description>
+          <description>validateEmail() Email address validation method. Is tested not only for syntax validity, but other email related services such as isPwned and blacklists.</description>
           <long-description></long-description>
           <tag name="param" line="57" description="" type="" variable="$email"/>
           <tag name="return" line="57" description="" type="array">
@@ -82,25 +82,25 @@
         <name>sendMessage</name>
         <full_name>\dropItForMeClient::sendMessage()</full_name>
         <docblock line="79">
-          <description>sendMessage() Send email method</description>
+          <description>sendMessage() Send email method.</description>
           <long-description></long-description>
           <tag name="param" line="79" description="" type="" variable="$email_to"/>
           <tag name="param" line="79" description="" type="" variable="$email_to_name"/>
           <tag name="param" line="79" description="" type="" variable="$email_subject"/>
           <tag name="param" line="79" description="" type="" variable="$email_body"/>
-          <tag name="param" line="79" description="" type="" variable="$email_body_type"/>
+          <tag name="param" line="79" description="&lt;p&gt;(HTML or PLAIN)&lt;/p&gt;" type="" variable="$email_body_type"/>
           <tag name="param" line="79" description="" type="" variable="$email_from"/>
           <tag name="param" line="79" description="" type="" variable="$email_from_name"/>
-          <tag name="param" line="79" description="" type="string" variable="$attachment_path">
+          <tag name="param" line="79" description="&lt;p&gt;(optional) File name and path to be included.&lt;/p&gt;" type="string" variable="$attachment_path">
             <type>string</type>
           </tag>
-          <tag name="param" line="79" description="" type="string" variable="$attachment_base64">
+          <tag name="param" line="79" description="&lt;p&gt;(optional) Base64 encoded binary data of the attachment.&lt;/p&gt;" type="string" variable="$attachment_base64">
             <type>string</type>
           </tag>
-          <tag name="param" line="79" description="" type="string" variable="$attachment_name">
+          <tag name="param" line="79" description="&lt;p&gt;(optional, required if $attachment_path is present)&lt;/p&gt;" type="string" variable="$attachment_name">
             <type>string</type>
           </tag>
-          <tag name="param" line="79" description="" type="string" variable="$callback_url">
+          <tag name="param" line="79" description="&lt;p&gt;(optional) Callback will return a POST to the entered URL with the delivery email status.&lt;/p&gt;" type="string" variable="$callback_url">
             <type>string</type>
           </tag>
           <tag name="return" line="79" description="" type="array">
@@ -167,7 +167,7 @@
         <name>isHamEmail</name>
         <full_name>\dropItForMeClient::isHamEmail()</full_name>
         <docblock line="112">
-          <description>isHamEmail() Report a valid email address</description>
+          <description>isHamEmail() Report a valid email address.</description>
           <long-description></long-description>
           <tag name="param" line="112" description="" type="" variable="$email"/>
           <tag name="return" line="112" description="" type="array">
@@ -184,7 +184,7 @@
         <name>isSpamEmail</name>
         <full_name>\dropItForMeClient::isSpamEmail()</full_name>
         <docblock line="124">
-          <description>isSpamEmail() Report an ivalid email address</description>
+          <description>isSpamEmail() Report an invalid email address.</description>
           <long-description></long-description>
           <tag name="param" line="124" description="" type="" variable="$email"/>
           <tag name="return" line="124" description="" type="array">
@@ -201,7 +201,7 @@
         <name>doRequest</name>
         <full_name>\dropItForMeClient::doRequest()</full_name>
         <docblock line="137">
-          <description>doRequest() Client API http method</description>
+          <description>doRequest() Client API http method.</description>
           <long-description></long-description>
           <tag name="param" line="137" description="" type="" variable="$url"/>
           <tag name="param" line="137" description="" type="array|null" variable="$post">
@@ -224,7 +224,7 @@
         </argument>
       </method>
     </class>
-    <source>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</source>
+    <source>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</source>
   </file>
   <package name="Ajax Class" full_name="Ajax Class"/>
   <package name="global" full_name="global"/>

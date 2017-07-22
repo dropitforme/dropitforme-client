@@ -27,7 +27,7 @@ class dropItForMeClient {
 
 
     /**
-     * @var string API Key provided by https://dropitforme.com
+     * @var string API Key provided by dropitforme.com.
      */
 	public $api_key;
 
@@ -48,7 +48,7 @@ class dropItForMeClient {
 
 
     /**
-     * validateEmail() Email address validation method
+     * validateEmail() Email address validation method. Is tested not only for syntax validity, but other email related services such as isPwned and blacklists.
      *
      * @param $email
      *
@@ -60,19 +60,19 @@ class dropItForMeClient {
 
 
     /**
-     * sendMessage() Send email method
+     * sendMessage() Send email method.
      *
      * @param        $email_to
      * @param        $email_to_name
      * @param        $email_subject
      * @param        $email_body
-     * @param        $email_body_type
+     * @param        $email_body_type (HTML or PLAIN)
      * @param        $email_from
      * @param        $email_from_name
-     * @param string $attachment_path
-     * @param string $attachment_base64
-     * @param string $attachment_name
-     * @param string $callback_url
+     * @param string $attachment_path (optional) File name and path to be included.
+     * @param string $attachment_base64 (optional) Base64 encoded binary data of the attachment.
+     * @param string $attachment_name (optional, required if $attachment_path is present)
+     * @param string $callback_url (optional) Callback will return a POST to the entered URL with the delivery email status.
      *
      * @return array
      */
@@ -103,7 +103,7 @@ class dropItForMeClient {
 
 
     /**
-     * isHamEmail() Report a valid email address
+     * isHamEmail() Report a valid email address.
      *
      * @param $email
      *
@@ -115,7 +115,7 @@ class dropItForMeClient {
 
 
     /**
-     * isSpamEmail() Report an ivalid email address
+     * isSpamEmail() Report an invalid email address.
      *
      * @param $email
      *
@@ -127,7 +127,7 @@ class dropItForMeClient {
 
 
     /**
-     * doRequest() Client API http method
+     * doRequest() Client API http method.
      *
      * @param            $url
      * @param array|null $post
