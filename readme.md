@@ -1,6 +1,10 @@
 # DropItForMe API Client Library for PHP
 
+<div style="text-align:center" markdown="1">
+
 [![DropItForMe](ui/images/dropitforme.com-logo-500x500.png)](https://dropitforme.com)
+
+</div>
 
 **The Ultimate Mail Delivery Service!**
 
@@ -18,7 +22,7 @@ Features include:-
 ## Table of Contents
 
 * [Getting Started](#getting-started)
-* [Plug-Ins](#plug-ins)
+* [Plug-Ins](#plug-ins) WordPress, Drupal
 * [Quick Reference](#quick-reference)
 * [Support and Licensing](#support-and-licensing)
 
