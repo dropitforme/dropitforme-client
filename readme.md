@@ -2,22 +2,23 @@
 
 <div style="text-align:center" markdown="1">
 
-[![DropItForMe](ui/images/dropitforme.com-logo-500x500.png)](https://dropitforme.com)
+[![DropItForMe](/ui/images/dropitforme.com-logo-500x500.png)](https://dropitforme.com)
 
 </div>
 
 **The Ultimate Mail Delivery Service!**
 
 No longer do you have to worry about your message being delivered! No SMTP port blocking issues! (Sorry GoDaddy, Google Cloud)
+No hassle SMS services too!
 
 Features include:-
 
+* Email (SMTP) delivery
+* Simple Message Service (SMS)
 * Composer friendly installation
 * WordPress Plugin
 * Simple REST API
 * Callback included to give you a real time delivery status
-
-[![Paypal](ui/images/paypal.png)](https://paypal.me/dropitforme)
 
 ## Table of Contents
 
@@ -58,9 +59,9 @@ The Drop It For Me is community-driven software. It can't be what it is today wi
 * [Tafoya Ventures](https://tafoyaventures.com)
 * [Digital Ocean](https://m.do.co/c/f62e7e7593cf)
 
-[![Paypal](ui/images/paypal.png)](https://paypal.me/dropitforme)
+### Donate
 
-### Legal notice
+[![Paypal](ui/images/paypal.png)](https://paypal.me/dropitforme)
 
 By making a donation to this project you signify that you acknowledged, understood, accepted, and agreed to the terms and conditions contained in this notice. Your donation to the Drop It For Me project is voluntary and is not a fee for any services, goods, or advantages, and making a donation to the project does not entitle you to any services, goods, or advantages. We have the right to use the money you donate to the Drop It For Me project in any lawful way and for any lawful purpose we see fit and we are not obligated to disclose the way and purpose to any party unless required by applicable law. Although Drop It For Me is free software, to our best knowledge this project does not have any tax-exempt status. The Drop It For Me project is neither a registered non-profit corporation nor a registered charity in any country. Your donation may or may not be tax-deductible; please consult this with your tax advisor. We will not publish/disclose your name and e-mail address without your consent, unless required by applicable law. Your donation is non-refundable.
 
