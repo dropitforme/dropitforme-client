@@ -4,7 +4,7 @@
   -->
 
 <phpdoc>
-    <title>DropItForMe API Client Library for PHP</title>
+    <title>mailsmarty API Client Library for PHP</title>
     <parser>
         <target>docs</target>
         <markers>

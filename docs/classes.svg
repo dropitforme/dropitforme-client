@@ -13,10 +13,10 @@
 <path fill="none" stroke="gray" d="M20,-8C20,-8 143,-8 143,-8 149,-8 155,-14 155,-20 155,-20 155,-68 155,-68 155,-74 149,-80 143,-80 143,-80 20,-80 20,-80 14,-80 8,-74 8,-68 8,-68 8,-20 8,-20 8,-14 14,-8 20,-8"/>
 <text text-anchor="middle" x="81.5" y="-67.2" font-family="Times,serif" font-size="11.00" fill="gray">Global</text>
 </g>
-<!-- \\dropItForMeClient -->
-<g id="node1" class="node"><title>\\dropItForMeClient</title>
+<!-- \\mailsmartyClient -->
+<g id="node1" class="node"><title>\\mailsmartyClient</title>
 <polygon fill="none" stroke="black" points="147,-52 16,-52 16,-16 147,-16 147,-52"/>
-<text text-anchor="middle" x="81.5" y="-31.2" font-family="Courier,monospace" font-size="11.00">dropItForMeClient</text>
+<text text-anchor="middle" x="81.5" y="-31.2" font-family="Courier,monospace" font-size="11.00">mailsmartyClient</text>
 </g>
 </g>
 </svg>

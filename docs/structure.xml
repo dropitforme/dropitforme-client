@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project title="DropItForMe API Client Library for PHP" version="2.8.5">
+<project title="mailsmarty API Client Library for PHP" version="2.8.5">
   <partials/>
-  <file path="dropItForMeClient.php" generated-path="dropItForMeClient.html" hash="12e2e2215907d1c9f9893bce33bf779d" package="Ajax Class">
+  <file path="mailsmartyClient.php" generated-path="mailsmartyClient.html" hash="12e2e2215907d1c9f9893bce33bf779d" package="Ajax Class">
     <docblock line="0">
-      <description>DropItForMe API Client Library for PHP</description>
+      <description>mailsmarty API Client Library for PHP</description>
       <long-description></long-description>
       <tag name="copyright" line="0" description="2017, Brian Tafoya."/>
       <tag name="package" line="0" description="Ajax Class"/>
@@ -16,29 +16,29 @@
     </docblock>
     <class final="false" abstract="false" namespace="" line="26" package="Ajax Class">
       <extends/>
-      <name>dropItForMeClient</name>
-      <full_name>\dropItForMeClient</full_name>
+      <name>mailsmartyClient</name>
+      <full_name>\mailsmartyClient</full_name>
       <docblock line="26">
-        <description>Class dropItForMeClient</description>
+        <description>Class mailsmartyClient</description>
         <long-description></long-description>
         <tag name="package" line="26" description="Ajax Class"/>
       </docblock>
       <property static="false" visibility="public" namespace="" line="32" package="Ajax Class">
         <name>$api_key</name>
-        <full_name>\dropItForMeClient::api_key</full_name>
+        <full_name>\mailsmartyClient::api_key</full_name>
         <default></default>
         <docblock line="32">
           <description></description>
           <long-description></long-description>
-          <tag name="var" line="32" description="&lt;p&gt;API Key provided by dropitforme.com.&lt;/p&gt;" type="string" variable="">
+          <tag name="var" line="32" description="&lt;p&gt;API Key provided by mailsmarty.com.&lt;/p&gt;" type="string" variable="">
             <type>string</type>
           </tag>
         </docblock>
       </property>
       <property static="false" visibility="private" namespace="" line="38" package="Ajax Class">
         <name>$base_url</name>
-        <full_name>\dropItForMeClient::base_url</full_name>
-        <default>"https://dropitforme.com/"</default>
+        <full_name>\mailsmartyClient::base_url</full_name>
+        <default>"https://mailsmarty.com/"</default>
         <docblock line="38">
           <description></description>
           <long-description></long-description>
@@ -49,9 +49,9 @@
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="" line="45" package="Ajax Class">
         <name>__construct</name>
-        <full_name>\dropItForMeClient::__construct()</full_name>
+        <full_name>\mailsmartyClient::__construct()</full_name>
         <docblock line="45">
-          <description>dropItForMeClient constructor.</description>
+          <description>mailsmartyClient constructor.</description>
           <long-description></long-description>
           <tag name="param" line="45" description="" type="" variable="$api_key"/>
         </docblock>
@@ -63,7 +63,7 @@
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="" line="57" package="Ajax Class">
         <name>validateEmail</name>
-        <full_name>\dropItForMeClient::validateEmail()</full_name>
+        <full_name>\mailsmartyClient::validateEmail()</full_name>
         <docblock line="57">
           <description>validateEmail() Email address validation method. Is tested not only for syntax validity, but other email related services such as isPwned and blacklists.</description>
           <long-description></long-description>
@@ -80,7 +80,7 @@
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="" line="79" package="Ajax Class">
         <name>sendMessage</name>
-        <full_name>\dropItForMeClient::sendMessage()</full_name>
+        <full_name>\mailsmartyClient::sendMessage()</full_name>
         <docblock line="79">
           <description>sendMessage() Send email method.</description>
           <long-description></long-description>
@@ -165,7 +165,7 @@
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="" line="112" package="Ajax Class">
         <name>isHamEmail</name>
-        <full_name>\dropItForMeClient::isHamEmail()</full_name>
+        <full_name>\mailsmartyClient::isHamEmail()</full_name>
         <docblock line="112">
           <description>isHamEmail() Report a valid email address.</description>
           <long-description></long-description>
@@ -182,7 +182,7 @@
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="" line="124" package="Ajax Class">
         <name>isSpamEmail</name>
-        <full_name>\dropItForMeClient::isSpamEmail()</full_name>
+        <full_name>\mailsmartyClient::isSpamEmail()</full_name>
         <docblock line="124">
           <description>isSpamEmail() Report an invalid email address.</description>
           <long-description></long-description>
@@ -199,7 +199,7 @@
       </method>
       <method final="false" abstract="false" static="false" visibility="private" namespace="" line="137" package="Ajax Class">
         <name>doRequest</name>
-        <full_name>\dropItForMeClient::doRequest()</full_name>
+        <full_name>\mailsmartyClient::doRequest()</full_name>
         <docblock line="137">
           <description>doRequest() Client API http method.</description>
           <long-description></long-description>

@@ -1,12 +1,12 @@
 {
-    "name": "dropitforme/dropitforme-client",
-    "description": "DropItForMe PHP API Library.",
-    "keywords": ["framework", "dropitforme"],
+    "name": "mailsmarty/mailsmarty-client",
+    "description": "mailsmarty PHP API Library.",
+    "keywords": ["framework", "mailsmarty"],
     "license": "GPL V3",
-    "homepage": "https://dropitforme.com",
+    "homepage": "https://mailsmarty.com",
     "support": {
-        "issues": "https://github.com/dropitforme/dropitforme-client/issues",
-        "source": "https://github.com/dropitforme/dropitforme-client"
+        "issues": "https://github.com/mailsmarty/mailsmarty-client/issues",
+        "source": "https://github.com/mailsmarty/mailsmarty-client"
     },
     "authors": [
         {

@@ -1,6 +1,6 @@
 <?php
 /**
- * DropItForMe API Client Library for PHP
+ * mailsmarty API Client Library for PHP
  *
  * @copyright 2017, Brian Tafoya.
  * @package   Ajax Class
@@ -21,13 +21,13 @@
  */
 
 /**
- * Class dropItForMeClient
+ * Class mailsmartyClient
  */
-class dropItForMeClient {
+class mailsmartyClient {
 
 
     /**
-     * @var string API Key provided by dropitforme.com.
+     * @var string API Key provided by mailsmarty.com.
      */
 	public $api_key;
 
@@ -35,10 +35,10 @@ class dropItForMeClient {
     /**
      * @var string API Endpoint
      */
-	private $base_url = "https://dropitforme.com/";
+	private $base_url = "https://mailsmarty.com/";
 
     /**
-     * dropItForMeClient constructor.
+     * mailsmartyClient constructor.
      *
      * @param $api_key
      */
